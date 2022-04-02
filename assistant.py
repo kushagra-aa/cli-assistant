@@ -22,19 +22,19 @@ def wishMe():
     '''
     hour=int(datetime.datetime.now().hour)
     if hour>=0 and hour<12:
-        speak('Morning,')
+        speak('Good Morning,')
 
     elif hour>=12 and hour<18:
-        speak('Noon,')
+        speak('Good AfterNoon,')
 
     elif hour>=18 and hour<21:
-        speak('Evening,')
+        speak('Good Evening,')
 
     else:
-        speak('Night,')
+        speak("It's Night,")
 
-    speak("Welcome Master")
-    speak('Myself sasta jarvis')
+    speak("Welcome,")
+    speak('I am your assistant')
 
 def takeCommand():
     '''
